@@ -11,6 +11,6 @@ export class CarService {
 
   constructor(private http: HttpClient) {}
   getAll(): Observable<any> {
-    return this.http.get('https://mr-heroku-spring-boot-boilerplate.herokuapp.com/cool-cars');
+    return this.http.get('https://mr-heroku-spring-boot-boilerpl.herokuapp.com/cool-cars');
   }
 }
